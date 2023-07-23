@@ -11,7 +11,6 @@ function App() {
   const [modalOpen, setModalOpen] = useState(true);
   return (
     <>
-
      {modalOpen && <Modal setOpenModal={setModalOpen} />}
      <CustomCarousel />
       <Content/>

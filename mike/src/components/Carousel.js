@@ -5,7 +5,7 @@ import ScrollDown  from "./ScrollDown.js";
 
 import "../css/Carousal.css";
 
-import  Slide1  from "../images/westhartford.png";
+import  Slide1  from "../images/westhartford.jpg";
 import  Slide2  from "../images/westhartford2.jpg";
 import  Slide3  from "../images/westhartford3.jpg";
 
@@ -28,9 +28,9 @@ const CustomCarousel = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 custom-img "
+                        className="d-block custom-img"
                         src={Slide3}
-                        alt="Third slide"
+                        alt="Second slide"
                     />
                 </Carousel.Item>
             </Carousel>
