@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Mike_Truong/static/css/main.3164d8fc.css",
-    "main.js": "/Mike_Truong/static/js/main.08d96cdc.js",
+    "main.css": "/Mike_Truong/static/css/main.c4fd6a08.css",
+    "main.js": "/Mike_Truong/static/js/main.e4dfd66c.js",
     "static/js/787.4c0cd448.chunk.js": "/Mike_Truong/static/js/787.4c0cd448.chunk.js",
+    "static/media/westhartford.jpg": "/Mike_Truong/static/media/westhartford.3b0d441e138dc43f2009.jpg",
     "static/media/MikeTruong.png": "/Mike_Truong/static/media/MikeTruong.bb1564fe527080c5ea0b.png",
-    "static/media/westhartford.png": "/Mike_Truong/static/media/westhartford.dc15a0f603572cddafec.png",
     "static/media/westhartford2.jpg": "/Mike_Truong/static/media/westhartford2.1aa333b8780a87f0d66d.jpg",
     "static/media/westhartford3.jpg": "/Mike_Truong/static/media/westhartford3.862ef212c104649b9002.jpg",
     "static/media/logo.svg": "/Mike_Truong/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Mike_Truong/index.html",
-    "main.3164d8fc.css.map": "/Mike_Truong/static/css/main.3164d8fc.css.map",
-    "main.08d96cdc.js.map": "/Mike_Truong/static/js/main.08d96cdc.js.map",
+    "main.c4fd6a08.css.map": "/Mike_Truong/static/css/main.c4fd6a08.css.map",
+    "main.e4dfd66c.js.map": "/Mike_Truong/static/js/main.e4dfd66c.js.map",
     "787.4c0cd448.chunk.js.map": "/Mike_Truong/static/js/787.4c0cd448.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3164d8fc.css",
-    "static/js/main.08d96cdc.js"
+    "static/css/main.c4fd6a08.css",
+    "static/js/main.e4dfd66c.js"
   ]
 }
