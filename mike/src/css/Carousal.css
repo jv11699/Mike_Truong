@@ -1,0 +1,9 @@
+.custom-img {
+    height: 100vh;
+    object-fit: contain;
+    z-index: 3;
+    max-width: 100%;
+  }
+#home {
+    z-index: 3;
+}

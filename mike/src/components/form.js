@@ -2,6 +2,7 @@ import Button from 'react-bootstrap/Button';
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import Form from 'react-bootstrap/Form';
+import "../css/Form.css"
 
 const Forms = () => {
     const [phoneNumber, setPhoneNumber] = useState('');
@@ -30,28 +31,28 @@ const Forms = () => {
 
 
 return (
-    <div class="row" style={{ 'padding-top': '100px' }}>
-        <div class="mx-auto col-10 col-md-8 col-lg-6">
+    <div class="row">
+        <div class="mx-auto">
             <Form>
-
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Name</Form.Label>
                     <Form.Control type="name" placeholder="Enter Name"
                         value={name}
-                        onChange={(e) => setName(e.target.value)} />
-                    <Form.Label>Email address</Form.Label>
+                        onChange={(e) => setName(e.target.value)} 
+                      />
                     <Form.Control type="email" placeholder="Enter email"
                         value={email}
-                        onChange={(e) => setEmail(e.target.value)} />
-                    <Form.Label>Phone Number</Form.Label>
+                        onChange={(e) => setEmail(e.target.value)} 
+                        style={{marginTop:"10px"}}/>
                     <Form.Control type="tel" placeholder="Enter Phone Number"
                         value={phoneNumber}
-                        onChange={(e) => setPhoneNumber(e.target.value)} />
+                        onChange={(e) => setPhoneNumber(e.target.value)}
+                        style={{marginTop:"10px", marginBottom:"10px"}} />
                     <Form.Text className="text-muted">
                         We'll never share your email or phone number with anyone else.
                     </Form.Text>
                 </Form.Group>
-                <Button variant="primary" type="submit" onClick={handleSubmit}>
+                <Button variant="primary" type="submit" onClick={handleSubmit}
+                        id='FormSubmitButton'>
                     Submit
                 </Button>
             </Form>
